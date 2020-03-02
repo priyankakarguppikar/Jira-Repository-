@@ -7,7 +7,7 @@ pipeline {
              }
              post {
                  always {
-                     jiraComment body: 'Test Comment', issueKey: 'JP-2'
+                     jiraComment body: 'Build for this project is created in the Jenkins', issueKey: 'JP'
                  }
              }
          }
