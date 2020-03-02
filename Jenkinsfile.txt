@@ -8,7 +8,7 @@ pipeline {
              post {
                  always {
                      jiraSendBuildInfo branch: 'DEMO-1', site: 'deshpandeavinash.atlassian.net'
-                        jiraAddComment comment: 'This is a test build', idOrKey: 'DEMO-1', site: ''
+                        jiraAddComment comment: 'This is a test build', idOrKey: 'DEMO-1', site: 'deshpandeavinash.atlassian.net'
                  }
              }
          }
