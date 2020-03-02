@@ -7,7 +7,7 @@ pipeline {
              }
              post {
                  always {
-                     jiraComment body: 'Build ', issueKey: 'JP-*'
+                     jiraComment body: 'Build ', issueKey: 'JP-2,JP-1'
                  }
              }
          }
